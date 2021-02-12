@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en"><!-- InstanceBegin template="../project3/Templates/martinezlillian_temp.dwt" codeOutsideHTMLIsLocked="false" -->
+  <head>
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- InstanceBeginEditable name="doctitle" -->
+	<title>Better Health - Menu Items</title>
+	<!-- InstanceEndEditable -->
+	<!-- Bootstrap -->
+	<link href="css/bootstrap.css" rel="stylesheet">
+	  
+<link href="css/martinezlillian_styles.css" rel="stylesheet" type="text/css">
+	
+  <!-- InstanceBeginEditable name="head" -->
+  		<meta name="description" content="Better Health - Menu Items">
+	  <script src="JSCode/calculate.js" async></script>
+	  <link href="forms.css" rel="stylesheet" type="text/css">
+	  <link href="validate.css" rel="stylesheet" type="text/css">
+	<!-- InstanceEndEditable -->
+<script src="JSCode/menu.js" defer></script>
+</head>
+  <body>
+	  <div>
+            &nbsp;
+            
+            <header class="row">
+        <header class="col-sm-12">
+          <h2><a href="index.html">Better Health</a></h2>
+          <a href="index.html"><img src="images/lotus.PNG" alt="" width="122" height="56" class="lotus"/></a>
+          <p>Health &amp; Nutrition</p>
+        </header>
+      </header>
+
+	 	
+			<div class="container">
+		 		<div class="row"><!-- InstanceBeginEditable name="navbar" -->
+		 		  <nav class="navbar navbar-default">
+		 		    <div class="container-fluid">
+		 		      <!-- Brand and toggle get grouped for better mobile display -->
+		 		      <div class="navbar-header">
+		 		        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#defaultNavbar1" aria-expanded="false"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+		 		        <!-- Collect the nav links, forms, and other content for toggling -->
+		 		        <div class="collapse navbar-collapse" id="defaultNavbar1">
+		 		          <ul class="nav navbar-nav">
+		 		            <li><a href="index.html">Welcome</a></li>
+		 		            <li><a href="about.html">Menu Items</a></li>
+		 		            <li></li>
+		 		            <li class="active"></li>
+		 		            <li></li>
+		 		            <li class="dropdown"><a href="nutrition.html" data-toggle="dropdown" class="dropdown-toggle">Nutrition<b class="caret"></b></a>
+		 		              <ul class="dropdown-menu">
+		 		                <li><a href="recipes.html">Recipes</a></li>
+	 		                  </ul>
+	 		                </li>
+		 		            <li></li>
+		 		            <li class="active"></li>
+		 		            <li></li>
+		 		            <li class="dropdown"><a href="active.html" data-toggle="dropdown" class="dropdown-toggle">Staying Active<b class="caret"></b></a>
+		 		              <ul class="dropdown-menu">
+		 		                <li><a href="workout.html">Workouts</a></li>
+	 		                  </ul>
+	 		                </li>
+		 		            <li><a href="specials.html" target="_blank">Specials</a></li>
+		 		            <li><a href="application.html">Apply Now</a></li>
+	 		              </ul>
+	 		            </div>
+	 		          </div>
+	 		        </div>
+	 		    </nav>
+		 		<!-- InstanceEndEditable --><!-- /.navbar-collapse -->
+         
+		</div>
+          <!-- /.container-fluid -->
+        <!-- InstanceBeginEditable name="main_content" -->
+<main class="row">
+  <article class="col-md-6 col-md-push-3 col-sm-8 col-sm-push-4">
+    <section>
+      <h1>Application Form</h1>
+      <p>Required Item (*)</p>
+	  <form action="register.html" method="GET">
+	
+		   <!-- title -->
+            <div>
+                <label for="title">Title</label>
+                <input type="text" name="title" id="titleBox" list="titleList">
+                <datalist id="titleList">
+            <option value="Mr."></option>
+            <option value="Mrs."></option>
+            <option value="Ms."></option>
+          </datalist>
+            </div>
+
+            <!-- firstName -->
+            <label for="fnBox">First Name*</label>
+            <input type="text" name="firstName" id="fnBox" required>
+
+            <!-- LastName -->
+            <label for="lnBox">Last Name*</label>
+            <input type="text" name="lastName" id="lnBox" required>
+
+            <!-- address -->
+            <label for="addBox">Address*</label>
+            <textarea name="address" id="addBox"></textarea>
+
+            <!-- Company or University -->
+            <label for="groupBox">Company or University</label>
+            <input type="text" name="group" id="groupBox">
+
+            <!-- E-mail -->
+            <label for="mailBox">E-mail*</label>
+            <input type="email" name="email" id="mailBox" required>
+
+            <!-- Phone Number -->
+            <label for="phoneBox">Phone Number*</label>
+            <input type="tel" name="phoneNumber" id="phoneBox" required pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$" placeholder="(nnn) nnn-nnnn">
+		  	
+            <!-- Avialability -->
+            <label for="regList">Hours Available</label>
+            <select id="regList" name="">
+          <option value="morning">Early Morning</option>
+          <option value="noon">Midday</option>
+          <option value="afternoon">Afternoon</option>
+          <option value="evening">Evening</option>
+			</select>
+		  
+		<!-- Position -->
+			<label for="position">Position*</label> 
+		  		<fieldset class="optGroup"> 
+				<label for="ft">Fulltime</label>
+ 				<input type="radio" name="position" id="ft" value="" required />
+				<label for="pt">Partime</label>
+				<input type="radio" name="position" id="pt" value="" required />
+		 	 	</fieldset>
+
+			
+            <!-- Button -->
+            <p><input type="submit" name="continue" value="Continue"></p>
+		  <p><input type="reset" name="continue" value="Reset"></p>
+        </form>
+   </section>
+	  
+  </article>
+
+<!-- InstanceEndEditable --><!-- InstanceBeginEditable name="sidebar1" -->
+
+<!-- InstanceEndEditable --><!-- InstanceBeginEditable name="sidebar2" -->
+
+<!-- InstanceEndEditable -->
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-1.11.3.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.js"></script>
+	  </div>
+	</body>
+<!-- InstanceEnd -->
+
+</html>
