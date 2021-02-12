@@ -1,0 +1,50 @@
+/*
+Name: Lillian Martinez
+Coding 08
+Purpose: This is my main css page. So far all I have had to modify is a picture and the footer but will add as I go.
+*/
+
+#footer{
+    padding:15px;
+    margin-top:20px;
+    background-color: #000000;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+#pretty{
+    width: 100%;
+}
+
+#msg{
+      text-align: center;
+      color: #ff0000;
+      float: inherit;
+      padding-top: 15px;
+    }
+
+#map{
+    height: 500px;
+    width: 100%;
+}
+
+.centered{
+    text-align: center;
+}
+.msg-centered{
+  text-align: center;
+  color: #ff0000;
+  float: inherit;
+  padding-top: 15px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (min-width: 768px) {
+    #pretty{
+        width: 350px;
+    }
+}
