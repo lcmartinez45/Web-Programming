@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!-- -------------------
+Name: Lillian Martinez
+Coding 03
+Purpose: This is my contact page, contact.html. It is designed mobile first, I am making a sample website for my web design business. This page is a form for my customers to contact me.
+------------------- -->
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Professional web design">
+	<meta name="keywords" content="web design, affordable web design, professional web design">
+  	<meta name="author" content="Lilliana Martinez">
+    <title>LM Web Design | Contact</title>
+    <link rel="stylesheet" href="main.css">
+	<link rel="icon" href="favicon-16x16.png" type="image/png">
+	<script src="main.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1><span class="highlight">LM</span> Web Design</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Services</a></li>
+			<li class="current"><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="subscribe">
+      <div class="container">
+        <h1>Subscribe:</h1>
+        <form>
+          <input type="email" placeholder="Enter Email">
+          <button type="submit" class="button_1">Subscribe</button>
+        </form>
+      </div>
+    </section>
+
+    <section id="main">
+      <div class="container">
+		 <div class="centered" id="msg"></div>
+		<!-- This is a blank area for us to talk to the user -->
+        <article id="main-col">
+			<h1 class="page-title">Contact Me</h1>
+                <br>
+				<div class="dark">
+				<form class="contactForm">
+                    <form id="contactForm" name="contactForm" role="form" accept-charset="utf-8">
+						<label>First Name</label><br>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="first-name" name="fname" placeholder="Your First Name" maxlength="64" value="">
+                        </div>
+                        <label>Last Name</label><br>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="last-name" name="lname" placeholder="Your Last Name" maxlength="64" value="">
+                        </div>
+                        <div class="form-group">
+							<label>E-mail</label><br>
+                            <input type="text" class="form-control" id="remail1" name="remail1" placeholder="Return Email" maxlength="64" value="">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="remail2" name="remail2" placeholder="Re-Enter Email" maxlength="64" value="">
+                        </div>
+                        <div class="form-group">
+							<label>Subject Title</label><br>
+                            <input type="text" class="form-control" id="subject" name="sub" placeholder="Subject" maxlength="64" value="">
+                        </div>
+                        <div class="form-group">
+                            Message: <span id="chars">0</span> of 1000 characters maximum
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" id="message" name="message" placeholder="Message" rows="10" maxlength="1000"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button id="contact-send" type="button" class="button_1">Send</button>&nbsp;&nbsp;
+                            <button id="contact-clear" type="button" class="button_1">Clear</button>
+                        </div>
+                    </form><!-- form -->
+				</form>
+			</div>		
+		  </article>
+		</div>
+	</section>
+
+    <footer>
+      <p>LM Web Design, Copyright &copy; 2020</p>
+    </footer>
+  </body>
+</html>
+
