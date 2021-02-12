@@ -1,0 +1,101 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Menu Item Styles */
+
+section#items {
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-flow: row wrap;
+   flex-flow: row wrap;
+   width: 100%;
+}
+
+section#items div.menuItem {
+   -webkit-flex: 1 0 160px;
+   flex: 1 0 160px;
+   border: 1px solid black;
+   margin: 10px;
+}
+
+section#items div.menuItem h1 {
+   text-align: center;
+   font-size: 1em;
+   letter-spacing: 0.1em;
+}
+
+section#items div.menuItem p {
+   font-size: 0.85em;
+   margin: 5px;
+}
+
+section#items div.menuItem div img {
+   display: block;
+   width: 60%;
+   margin: 5px auto;
+}
+
+button#finishOrder {
+	margin-left: 190px;
+   font-size: 1.2em;
+   width: 180px;
+   height: 40px;
+   background-color: rgba(8,168,166,1.00);
+   border-radius: 25px;
+   color: rgb(241, 241, 241);
+   box-shadow: 0px 0px 25px rgb(51, 51, 51);
+}
+
+
+/* Aside Styles */
+
+aside#cart {
+   -webkit-flex: 0 0 170px;
+   flex: 0 0 170px;
+   background: rgba(8,168,166,1.00);
+   font-size: 0.86em;
+   padding: 5px;
+}
+
+aside#cart > h1 {
+   text-align: center;
+   font-size: 1.5em;
+   margin-bottom: 20px;
+   margin-top: 10px;
+}
+
+aside#cart > div {
+   width: 75%;
+   border-bottom: 4px double rgb(0, 0, 0);
+   padding: 0px 10px 8px 10px;
+   margin-top: 5px;
+}
+
+aside#cart > div > img {
+   display: block;
+   width: 30%;
+   margin: 10px auto;
+}
+
+aside#cart > div > h1 {
+   text-align: center;
+}
+
+aside#cart > div > p {
+   font-size: 0.8em;
+}
+
+aside#cart > div > span {
+   display: inline-block;
+   font-size: 1em;
+   background-color: rgba(231, 231, 231, 0.5);
+   text-align: right;
+   padding: 4px;
+   box-shadow: 2px 2px 4px rgba(91, 42, 8, 0.7);
+}
+
+aside#cart > div > span::after {
+   content: " order(s)";
+}
+
+textarea { display: inline-block; margin-top: 10px; height: 100px; width: 100%; }
