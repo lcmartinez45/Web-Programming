@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en"><!-- InstanceBegin template="/Templates/martinezlillian_temp.dwt" codeOutsideHTMLIsLocked="false" -->
+  <head>
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- InstanceBeginEditable name="doctitle" -->
+	<title>Better Health - Keto Recipe</title>
+	<!-- InstanceEndEditable -->
+	<!-- Bootstrap -->
+	<link href="../css/bootstrap.css" rel="stylesheet">
+	  
+<link href="../css/martinezlillian_styles.css" rel="stylesheet" type="text/css">
+	
+  <!-- InstanceBeginEditable name="head" -->
+  		<meta name="description" content="Better Health - add description here">
+    <!-- TemplateBeginEditable name="head" -->
+  <!-- TemplateEndEditable -->
+  <!-- InstanceEndEditable -->
+<script src="menu.js" defer></script>
+</head>
+  <body>
+	  <div>
+            &nbsp;
+            
+            <header class="row">
+        <header class="col-sm-12">
+          <h2><a href="../index.html">Better Health</a></h2>
+          <a href="../index.html"><img src="../images/lotus.PNG" alt="" width="122" height="56" class="lotus"/></a>
+          <p>Health &amp; Nutrition</p>
+        </header>
+      </header>
+
+	 	
+			<div class="container">
+		 		<div class="row"><!-- InstanceBeginEditable name="navbar" -->
+		 		  <nav class="navbar navbar-default">
+		 		    <div class="container-fluid">
+		 		      <!-- Brand and toggle get grouped for better mobile display -->
+		 		      <div class="navbar-header">
+		 		        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#defaultNavbar1" aria-expanded="false"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+		 		        <!-- Collect the nav links, forms, and other content for toggling -->
+		 		        <div class="collapse navbar-collapse" id="defaultNavbar1">
+		 		          <ul class="nav navbar-nav">
+		 		            <li><a href="index.html">Welcome</a></li>
+		 		            <li><a href="about.html">Menu Items</a></li>
+		 		            <li></li>
+		 		            <li class="active"></li>
+		 		            <li></li>
+		 		            <li class="dropdown"><a href="nutrition.html" data-toggle="dropdown" class="dropdown-toggle">Nutrition<b class="caret"></b></a>
+		 		              <ul class="dropdown-menu">
+		 		                <li><a href="recipes.html">Recipes</a></li>
+	 		                  </ul>
+	 		                </li>
+		 		            <li></li>
+		 		            <li class="active"></li>
+		 		            <li></li>
+		 		            <li class="dropdown"><a href="active.html" data-toggle="dropdown" class="dropdown-toggle">Staying Active<b class="caret"></b></a>
+		 		              <ul class="dropdown-menu">
+		 		                <li><a href="workout.html">Workouts</a></li>
+	 		                  </ul>
+	 		                </li>
+		 		            <li><a href="specials.html">Specials</a></li>
+		 		            <li><a href="references.html">References</a></li>
+	 		              </ul>
+	 		            </div>
+	 		          </div>
+	 		        </div>
+	 		    </nav>
+		 		<!-- InstanceEndEditable --><!-- /.navbar-collapse -->
+         
+		</div>
+          <!-- /.container-fluid -->
+        <!-- InstanceBeginEditable name="main_content" -->
+<main>				
+  <article class="col-md-6 col-md-push-3 col-sm-8 col-sm-push-4">
+    <h1>Go Keto!</h1>
+    <h2>The reasons why this could be the best thing for you,</h2>
+    <p>A keto diet refers to a ketogenic diet, which is a high-fat, adequate-protein, low-carb diet. The goal is to get more calories from protein and fat than from carbs. It works by depleting your body of its store of sugar, so it will start to break down protein and fat for energy, causing ketosis (and weight loss). </p>
+    <p>One popular recipe below, Keto Pizza!</p>
+	<p>
+	<section>
+	  <img src="images/ketopizza.jpg" alt="" width="450" height="254" class="img-responsive"/>
+	  <table width="100%" border="1">
+	    <tbody>
+	      <tr>
+	        <th width="50%"><p>Ingredients</p></th>
+	        <th width="50%"><p>Instructions</p></th>
+	        </tr>
+	      <tr>
+	        <td><p><b>Crust</b><br>
+	          4 eggs<br>
+	          6 oz. shredded cheese, preferably mozzarella or provolone</p></td>
+	        <td><p>1. Preheat the oven to 400°F (200°C).</p>
+	          <p>2. Start by making the crust. Crack eggs into a medium-sized bowl and add shredded cheese. Give it a good stir to combine.</p>
+	          <p>3. Use a spatula to spread the cheese and egg batter on a baking sheet lined with parchment paper. You can form two round circles or just make one large rectangular pizza.</p></td>
+	        </tr>
+	      <tr>
+	        <td><p><b>Topping</b><br>
+	          3 tbsp tomato paste<br>
+	          1 tsp dried oregano<br>
+	          5 oz. shredded cheese<br>
+	          1½ oz. pepperoni<br>
+	          olives (optional)</p></td>
+	        <td><p>&nbsp;</p>
+	          <p>4. Bake in the oven for 15 minutes until the pizza crust turns golden. Remove and let cool for a minute or two.</p>
+	          <p>5. Increase the oven temperature to 450°F (225°C).</p>
+	          <p>6. Spread tomato paste on the crust and sprinkle oregano on top. Top with cheese and place the pepperoni and olives on top.</p>
+              <p>&nbsp;</p></td>
+	        </tr>
+	      <tr>
+	        <td><p><b>For serving</b><br>
+	          5 oz. leafy greens<br>
+	          4 tbsp olive oil<br>
+	          sea salt and ground black pepper</p></td>
+	        <td><p>7. Bake for another 5-10 minutes or until the pizza has turned a golden brown color.</p>
+	          <p>8. Serve with a fresh salad on the side.</p></td>
+	        </tr>
+	      </tbody>
+	    </table>
+	  </section>
+</p>
+				</article></main>
+<!-- InstanceEndEditable --><!-- InstanceBeginEditable name="sidebar1" -->
+
+<!-- InstanceEndEditable --><!-- InstanceBeginEditable name="sidebar2" -->
+
+<!-- InstanceEndEditable -->
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="../js/jquery-1.11.3.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="../js/bootstrap.js"></script>
+	  </div>
+	</body>
+<!-- InstanceEnd --></html>
